@@ -12,6 +12,8 @@ const App = () => {
     setTitle('')
   }
 
+  // hum directly input ko change nhi kr skte isiliye we use two way binding
+
   return (
     <div>
       <form onSubmit={(e) => {
